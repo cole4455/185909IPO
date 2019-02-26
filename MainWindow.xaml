@@ -1,0 +1,75 @@
+﻿<Window x:Class="_185909IPO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_185909IPO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Label Margin="184,0,0,0">Total Build Cost $1,920.52</Label>
+        <Grid>
+            <Button x:Name="BtnClick" Content="CPU" Click="BtnClick_Click" Margin="405,54,1,-54"></Button>
+        <Button x:Name="BtnClick2" Content="CPU Cooler" Click="BtnClick_Click2" Margin="272,54,134,-54"></Button>
+        <Button x:Name="BtnClick3" Content="Motherboard" Click="BtnClick_Click3" Margin="133,54,273,-54"></Button>
+        <Button x:Name="BtnClick4" Content="Memory" Click="BtnClick_Click4" Margin="0,54,406,-54"></Button>
+        <Button x:Name="BtnClick5" Content="Storage" Click="BtnClick_Click5" Margin="405,27,1,-27"></Button>
+        <Button x:Name="BtnClick6" Content="Video Card" Click="BtnClick_Click6" Margin="272,27,134,-27"></Button>
+        <Button x:Name="BtnClick7" Content="Case" Click="BtnClick_Click7" Margin="133,27,273,-27"></Button>
+        <Button x:Name="BtnClick8" Content="Power Supply" Click="BtnClick_Click8" Margin="0,27,406,-27"></Button>
+        <Button x:Name="BtnClick9" Content="Operating System" Click="BtnClick_Click9" Margin="405,0,1,0"></Button>
+        <Button x:Name="BtnClick10" Content="Software" Click="BtnClick_Click10" Margin="272,-2,134,2"></Button>
+        <Button x:Name="BtnClick11" Content="External Storage" Click="BtnClick_Click11" Margin="133,0,273,0"></Button>
+        <Button x:Name="BtnClick12" Content="Optical Drive" Click="BtnClick_Click12" Margin="0,0,406,2"/>
+
+            <TextBlock  
+                x:Name="Cpu"
+                FontFamily="Times New Roman" 
+                Margin="0,81,0,-192" 
+                Text="Description: Intel - Core i7-8700 3.2 GHz 6-Core Processor&#x0a;Price: $439.75&#x0a;Link: https://bit.ly/2EjOY44" FontSize="18"
+                Visibility="Hidden"/>
+
+            <TextBlock x:Name="CpuCooler"
+                       FontFamily="Times New Roman"
+                       Text="Description: Cooler Master - MasterLiquid ML240L RGB 66.7 CFM Liquid CPU Cooler&#x0a;Price: $88.96&#x0a;Link: https://bit.ly/2SJAXpl" 
+                       Margin="0,81,0,-192"
+                       Visibility="Hidden" 
+                       FontSize="18"/>
+
+            <TextBlock x:Name="MotherBoard"
+                       FontFamily="Times New Roman"
+                       Text="Description: MSI - MEG Z390 ACE ATX LGA1151 Motherboard&#x0a;Price: $148.88&#x0a;Link: https://bit.ly/2GzXH4C" 
+                       Margin="0,81,0,-136"
+                       Visibility="Hidden"
+                       FontSize="18"/>
+            
+            <TextBlock x:Name="Memory"
+                       FontFamily="Times New Roman"
+                       Text="Description: G.Skill - Aegis 16 GB (2 x 8 GB) DDR4-3000 Memory&#x0a;Price: $119.99&#x0a;Link: https://bit.ly/2Gyvnzv" 
+                       Margin="0,81,0,-159"
+                       FontSize="18"
+                       Visibility="Hidden"/>
+
+            <TextBlock x:Name="Storage"
+                       FontFamily="Times New Roman"
+                       Text="Description: Western Digital - Caviar Blue 1 TB 3.5 7200RPM Internal Hard Drive&#x0a;Price: $52.95&#x0a;Link: https://bit.ly/2Vfd45R" 
+                       Margin="0,81,0,-228"
+                       FontSize="18"
+                       Visibility="Hidden"/>
+            
+            <TextBlock x:Name="VideoCard"
+                       FontFamily="Times New Roman"
+                       Text="Description: Gigabyte - GeForce GT 1030 2 GB Low Profile Video Card&#x0a;Price: 108.96&#x0a;Link: https://amzn.to/2GBKTuf" 
+                       Margin="0,81,0,-159"
+                       FontSize="18"
+                       Visibility="Hidden"/>
+
+            <TextBlock></TextBlock>
+            <TextBlock></TextBlock>
+            <TextBlock></TextBlock>
+            <TextBlock></TextBlock>
+            <TextBlock></TextBlock>
+            <TextBlock></TextBlock>
+        </Grid>
+    </StackPanel>
+</Window>
